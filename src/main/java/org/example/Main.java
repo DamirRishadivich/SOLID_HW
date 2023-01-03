@@ -20,6 +20,7 @@ public class Main {
             int count = Integer.parseInt(parts[1]);
             basket.addPurchase(product, count);
         }
+        // Методы подсчета и добавления в корзину переехали в класс Basket
         long sum = basket.sum(Products.getProducts());
         System.out.println("ИТОГО: " + sum);
     }
